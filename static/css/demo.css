@@ -1,0 +1,18 @@
+.jumbotron{
+    text-align: center;
+    margin-top: 30px;
+}
+body{
+    background: url('https://images.unsplash.com/photo-1611159063981-b8c8c4301869?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.display-4{
+    color: cornflowerblue;
+}
+.lead{
+    color: deeppink;
+}
+.btn btn-primary btn-lg{
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/demo.css"%}">
+
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Welcome To News Portal !</h1>
+        <p class="lead">we can see here updated news featured content or information.</p>
+        <hr class="my-4">
+        <a class="btn btn-primary btn-lg" href="/sport" role="button">Sport News</a>&nbsp;&nbsp;
+        <a class="btn btn-primary btn-lg" href="/politics" role="button">Politics News</a>&nbsp;&nbsp;
+        <a class="btn btn-primary btn-lg" href="/movie" role="button">Movie News</a>
+      </div>
+</body>
+</html>

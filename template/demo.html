@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+{% load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Result !</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static "css/demo1.css"%}">
+
+</head>
+<body>
+    <h1> {{head_msg}} </h1>
+        <ul>
+            {% if type == "movie" %}
+            <img src="{% static "image/1.jpg"%}" alt="oops not supported">
+            <li> {{m1}} </li>
+            <img src="{% static "image/2.jpg"%}" alt="oops not supported">
+            <li> {{m2}} </li>
+            <img src="{% static "image/3.webp"%}" alt="oops not supported">
+            <li> {{m3}} </li>
+            <img src="{% static "image/4.jpg"%}" alt="oops not supported">
+            <li> {{m4}} </li>
+            <img src="{% static "image/5.jpg"%}" alt="oops not supported">
+            <li> {{m5}} </li>
+            {% endif %}
+        </ul>
+
+        <ul>
+            {% if type == "sport" %}
+            <img src="{% static "image/6.jpg"%}" alt="oops not supported">
+            <li> {{m1}} </li>
+            <img src="{% static "image/7.jpg"%}" alt="oops not supported">
+            <li> {{m2}} </li>
+            <img src="{% static "image/8.jpg"%}" alt="oops not supported">
+            <li> {{m3}} </li>
+            <img src="{% static "image/9.jpg"%}" alt="oops not supported">
+            <li> {{m4}} </li>
+            <img src="{% static "image/10.jpg"%}" alt="oops not supported">
+            <li> {{m5}} </li>
+            {% endif %}
+        </ul>
+
+        <ul>
+            {% if type == "politics" %}
+            <img src="{% static "image/14.jpg"%}" alt="oops not supported">
+            <li> {{m1}} </li>
+            <img src="{% static "image/15.jpg"%}" alt="oops not supported">
+            <li> {{m2}} </li>
+            <img src="{% static "image/12.jpg"%}" alt="oops not supported">
+            <li> {{m3}} </li>
+            <img src="{% static "image/13.jpg"%}" alt="oops not supported">
+            <li> {{m4}} </li>
+            <img src="{% static "image/11.jpg"%}" alt="oops not supported">
+            <li> {{m5}} </li>
+            {% endif %}
+        </ul>
+
+    
+        
+     
+     
+     
+    
+     
+     
+    
+</body>
+</html>
